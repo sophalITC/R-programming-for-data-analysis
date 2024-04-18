@@ -1,0 +1,85 @@
+Data structure:
+1. Vector 
+2. List 
+3. Matrices
+Ex: 
+ m <- matrix(nrow = 2, ncol = 3)
+
+> a <- matrix(1:6, nrow = 2, ncol = 3)
+> b <- matrix(c(1,2,3,4,5,6), 
+				nrow = 2, ncol = 3) 
+
+#Sequence by row 
+M <- matrix(c(3:14), nrow = 4, byrow = TRUE)
+print(M)
+
+#Sequence by coloum 
+M <- matrix(c(3:14), nrow = 4, byrow = FALSE)
+print(M)
+
+#Define row name
+r1_name=c("student1","student2","student3",)
+
+#Define col name
+c_name= c("Math", "Statistic", "English")
+
+#design row and col to matrice 
+P <- matrix(c(3:14), nrow = 4, byrow = TRUE, 
+		dimnames = list(r_name, c_name))
+print(P)
+
+# access matrice items 
+thismatrix <- matrix(c("apple", "banana", "cherry",
+					 "orange"), nrow = 2, ncol = 2)
+
+thismatrix[1, 2]
+thismatric[2,]
+thismatric[,2]
+
+# Access more than one row
+N <- matrix(c(3:14), nrow = 4)
+#slect row (1:2)
+N[c(1,2),]
+N[, c(1,3)]
+
+#Add row and col use rbind() & cbind()
+
+N1 <- matrix(c(3:14), nrow = 4)
+N1_update <- cbind(N1, c(88,99,100,111))
+N1_update
+N1_rowUpdate <- rbind(N1, c(66,77,33))
+N1_rowUpdate
+
+# remove row and col use c()
+A <- matrix(c("a", "b", "c", "o", "m", 
+	"p"), nrow = 3)
+
+A <- A[-c(1),-c(1)]
+
+#check item in matrix 
+thismatrix <- matrix(c("apple", "banana", 
+		"cherry", "orange"), nrow = 2, ncol = 2)
+
+"apple" %in% thismatrix
+
+#add two or more matrix 
+# Combine matrices
+M1 <- matrix(c("a", "b", "c", "g"), nrow = 2)
+M2 <- matrix(c("o", "m", "p", "w"), nrow = 2)
+
+# Adding it as a rows
+Ma_Com <- rbind(M1, M2)
+Ma_Com
+______________________________________________
+#Arrays 
+#DF (data frame)
+
+# Adding it as a columns
+M_Combined <- cbind(M1, M2)
+M_Combined
+
+
+
+
+
+
