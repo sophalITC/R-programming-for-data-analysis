@@ -1,12 +1,6 @@
 # R Programming for Data Analysis
 
-Welcome to the repository for the "R Programming for Data Analysis" course, inspired by Dr. Prasert. This repository is a collection of R scripts, datasets, and assignments designed to enhance your understanding and skills in data analysis using R.
-
-## Instructor
-This course is led by **Mr. Chan Sophal**, an AIB trainer with extensive experience in R programming and data analytics.
-
-## Course Schedule
-The course runs from **August 09, 2022, to January 24, 2023**, at ACLEDA Headquarters, Meeting Room 15AB, 15 Floors. Please see `Schedule R Programming.pdf` for detailed session times and topics.
+Welcome to the repository for the "R Programming for Data Analysis" course. This repository is a collection of R scripts, datasets, and assignments designed to enhance your understanding and skills in data analysis using R that I provide tyhe training course at ACLEDA bank.
 
 ## Contents
 The repository includes a variety of R scripts and data files utilized throughout the course:
@@ -30,5 +24,7 @@ To get started with the scripts and datasets:
 ## Contribute
 Feel free to fork this repository and contribute by submitting pull requests or by reporting bugs.
 
-## Acknowledgements
-Special thanks to Dr. Prasert for his inspiration in developing this course, and to all contributing students.
+
+Some course content inspired by Dr. Prasert 
+
+### &copy; CHAN Sophal
